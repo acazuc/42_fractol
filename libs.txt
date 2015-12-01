@@ -1,0 +1,2 @@
+/usr/local/include/mlx.h
+System/Library/Frameworks/Tk.framework/Versions/8.4/Headers/X11/X.h

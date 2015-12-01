@@ -1,0 +1,64 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   event_listener.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/11/30 16:21:51 by acazuc            #+#    #+#             */
+/*   Updated: 2015/12/01 09:17:29 by acazuc           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "minilibx/mlx.h"
+#include "libft/libft.h"
+#include "draw.h"
+#include "env.h"
+
+int		expose_hook(void *param)
+{
+	t_env	*env;
+
+	env = (t_env*)param;
+	ft_putendl("Expose hook");
+	draw(env);
+	return (0);
+}
+
+int		key_hook(int key, void *param)
+{
+	t_env	*env;
+
+	env = (t_env*)param;
+	ft_putstr("Key hook: ");
+	ft_putnbr(key);
+	ft_putendl("");
+	if (key == 69)
+	{
+		if (zoom < 214743648 / 2)
+			zoom *= 2;
+	}
+	return (0);
+}
+
+int		wheel_hook(int wheel, void *param)
+{
+	t_env	*env;
+
+	env = (t_env*)param;
+	ft_putstr("Wheel hook: ");
+	ft_putnbr(wheel);
+	ft_putendl("");
+	return (0);
+}
+
+int		mouse_hook(int button, void *param)
+{
+	t_env	*env;
+
+	env = (t_env*)param;
+	ft_putstr("Mouse hook: ");
+	ft_putnbr(button);
+	ft_putendl("");
+	return (0);
+}

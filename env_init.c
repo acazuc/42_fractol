@@ -6,13 +6,12 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/01 07:02:12 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/01 16:32:46 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/01 16:49:53 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "minilibx/mlx.h"
-#include "f_params.h"
 #include "window.h"
 #include "env.h"
 

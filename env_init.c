@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/01 07:02:12 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/01 13:58:20 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/01 16:32:46 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static int	position_init(t_env *env)
 {
 	if (!(env->position = malloc(sizeof(*(env->position)))))
 		return (0);
-	env->fractal = 2;
+	env->fractal = 3;
 	env->position->zoom = 1.;
 	env->position->x_offset = 0.;
 	env->position->y_offset = 0.;

@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/01 07:27:56 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/01 07:28:47 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/08 09:08:54 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 
 # include "env.h"
 
-int		env_init(t_env *env);
+void	env_init(t_env *env, char *type);
 
 #endif

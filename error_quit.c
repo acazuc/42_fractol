@@ -1,28 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   window.h                                           :+:      :+:    :+:   */
+/*   error_quit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/11/29 14:44:23 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/08 08:48:29 by acazuc           ###   ########.fr       */
+/*   Created: 2015/11/29 19:32:12 by acazuc            #+#    #+#             */
+/*   Updated: 2015/12/07 11:45:24 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_WINDOW_H
-# define FT_WINDOW_H
+#include <stdlib.h>
+#include "libft/libft.h"
 
-typedef struct			s_window
+void	error_quit(char *error_message)
 {
-	void				*mlx_window;
-	void				*mlx;
-	void				*img;
-	char				*data;
-	int					width;
-	int					height;
-	int					bpp;
-	int					endian;
-}						t_window;
-
-#endif
+	ft_putstr("Error happened: ");
+	ft_putendl(error_message);
+	exit(-1);
+}

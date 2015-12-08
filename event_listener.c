@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 16:21:51 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/01 14:15:24 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/08 09:02:49 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int		key_hook(int key, void *param)
 		exit(1);
 	if (key == 69)
 		env->position->zoom *= 1.5;
-	if (key == 79)
+	if (key == 78)
 		env->position->zoom /= 1.5;
 	if (key == 123)
 		env->position->x_offset -= .5 / env->position->zoom;

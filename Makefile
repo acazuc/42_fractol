@@ -6,7 +6,7 @@
 #    By: acazuc <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/25 06:50:12 by acazuc            #+#    #+#              #
-#    Updated: 2015/12/01 07:59:28 by acazuc           ###   ########.fr        #
+#    Updated: 2015/12/08 08:54:35 by acazuc           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = fractol
 
 FLAGS = -Wall -Wextra -Werror
 
-SRCS = fractol.c window_init.c mandelbrot.c julia.c burningship.c env_init.c event_listener.c draw.c
+SRCS = fractol.c window_init.c mandelbrot.c julia.c burningship.c env_init.c event_listener.c draw.c pixel_put.c error_quit.c draw_reset.c
 
 OBJS = $(SRCS:.c=.o)
 

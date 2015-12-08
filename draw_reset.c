@@ -1,28 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   window.h                                           :+:      :+:    :+:   */
+/*   draw_reset.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: acazuc <acazuc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/11/29 14:44:23 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/08 08:48:29 by acazuc           ###   ########.fr       */
+/*   Created: 2015/12/07 13:24:08 by acazuc            #+#    #+#             */
+/*   Updated: 2015/12/08 08:52:52 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_WINDOW_H
-# define FT_WINDOW_H
+#include "pixel_put.h"
+#include "env.h"
 
-typedef struct			s_window
+void	draw_reset(t_env *env)
 {
-	void				*mlx_window;
-	void				*mlx;
-	void				*img;
-	char				*data;
-	int					width;
-	int					height;
-	int					bpp;
-	int					endian;
-}						t_window;
+	int		x;
+	int		y;
 
-#endif
+	y = 0;
+	while (y < env->window->height)
+	{
+		x = 0;
+		while (x < env->window->width)
+		{
+			pixel_put(env, x, y, 0);
+			x++;
+		}
+		y++;
+	}
+}

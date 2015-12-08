@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 08:51:10 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/01 16:40:22 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/08 08:56:22 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 #include "complex.h"
 #include "dot.h"
 
-static double	abc(double n)
+static float	abc(float n)
 {
 	return (n < 0 ? -n : n);
 }
 
-static int		get_color(double i, double max_i)
+static int		get_color(float i, float max_i)
 {
 	if (max_i == i)
 		return (0);

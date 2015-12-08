@@ -1,28 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   window.h                                           :+:      :+:    :+:   */
+/*   pixel_put.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: acazuc <acazuc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/11/29 14:44:23 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/08 08:48:29 by acazuc           ###   ########.fr       */
+/*   Created: 2015/12/07 13:22:57 by acazuc            #+#    #+#             */
+/*   Updated: 2015/12/08 08:53:12 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_WINDOW_H
-# define FT_WINDOW_H
+#ifndef FT_PIXEL_PUT_H
+# define FT_PIXEL_PUT_H
 
-typedef struct			s_window
-{
-	void				*mlx_window;
-	void				*mlx;
-	void				*img;
-	char				*data;
-	int					width;
-	int					height;
-	int					bpp;
-	int					endian;
-}						t_window;
+# include "env.h"
+
+void	pixel_put(t_env *env, int x, int y, unsigned int color);
 
 #endif

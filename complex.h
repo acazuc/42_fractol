@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 07:35:43 by acazuc            #+#    #+#             */
-/*   Updated: 2015/11/30 07:54:40 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/08 08:56:36 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 typedef struct		s_complex
 {
-	double			real;
-	double			imaginary;
+	float			real;
+	float			imaginary;
 }					t_complex;
 
 #endif

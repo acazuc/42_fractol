@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 08:51:10 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/01 14:40:55 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/08 09:04:00 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,10 @@ int			julia(t_env *env, t_complex *c1, t_complex *c2, t_dot *dot)
 	{
 		c2->real = c1->real;
 		c2->imaginary = c1->imaginary;
-		c1->real = c2->real * c2->real - c2->imaginary * c2->imaginary - 0.7 - env->position->julia_x_factor / 10.0;
-		c1->imaginary = 2 * c2->real * c2->imaginary + 0.27 + env->position->julia_y_factor / 10.0;
+		c1->real = c2->real * c2->real - c2->imaginary * c2->imaginary - 0.7
+			- env->position->julia_x_factor / 10.0;
+		c1->imaginary = 2 * c2->real * c2->imaginary + 0.27
+			+ env->position->julia_y_factor / 10.0;
 		i++;
 	}
 	return (get_color(i, max_i));

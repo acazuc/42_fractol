@@ -6,14 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 08:51:10 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:59:28 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 08:58:47 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include "complex.h"
-#include "dot.h"
-#include "env.h"
+#include "fractol.h"
 
 static double	abc(double n)
 {

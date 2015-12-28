@@ -6,15 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 16:21:51 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:56:49 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 09:02:50 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <mlx.h>
-#include "../libft/libft.h"
-#include "draw.h"
-#include "env.h"
+#include "fractol.h"
 
 void	check_position(t_env *env)
 {
@@ -46,7 +42,7 @@ int		expose_hook(void *param)
 	return (0);
 }
 
-void	key_hook(int key, void *param)
+int		key_hook(int key, void *param)
 {
 	t_env	*env;
 
@@ -71,6 +67,7 @@ void	key_hook(int key, void *param)
 		env->position->density /= 1.5;
 	check_position(env);
 	draw(env);
+	return (0);
 }
 
 int		mouse_hook(int x, int y, void *param)

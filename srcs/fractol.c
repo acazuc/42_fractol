@@ -6,16 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 06:28:42 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:57:00 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 08:59:55 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <mlx.h>
-#include "event_listener.h"
-#include "error_quit.h"
-#include "env_init.h"
-#include "window.h"
+#include "fractol.h"
 
 int		main(int ac, char **av)
 {

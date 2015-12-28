@@ -6,16 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/01 07:02:12 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:56:38 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 08:59:26 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <mlx.h>
-#include "../libft/libft.h"
-#include "error_quit.h"
-#include "window.h"
-#include "env.h"
+#include "fractol.h"
 
 static void	window_init(t_env *env)
 {

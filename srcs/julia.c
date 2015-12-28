@@ -6,14 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 08:51:10 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:58:45 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 09:00:17 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include "complex.h"
-#include "env.h"
-#include "dot.h"
+#include "fractol.h"
 
 static int	get_color(double i, double max_i)
 {

@@ -6,12 +6,11 @@
 /*   By: acazuc <acazuc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/07 13:16:19 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:54:37 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 09:00:34 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <mlx.h>
-#include "env.h"
+#include "fractol.h"
 
 void	pixel_put(t_env *env, int x, int y, unsigned int color)
 {

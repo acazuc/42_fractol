@@ -6,7 +6,7 @@
 #    By: acazuc <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/25 06:50:12 by acazuc            #+#    #+#              #
-#    Updated: 2015/12/27 17:01:21 by acazuc           ###   ########.fr        #
+#    Updated: 2015/12/28 09:05:27 by acazuc           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,17 @@ INCLUDES_PATH = includes/
 
 SRCS_PATH = srcs/
 
-SRCS_NAME = fractol.c window_init.c mandelbrot.c julia.c burningship.c env_init.c event_listener.c draw.c pixel_put.c error_quit.c draw_reset.c
+SRCS_NAME = fractol.c \
+			window_init.c \
+			mandelbrot.c \
+			julia.c \
+			burningship.c \
+			env_init.c \
+			event_listener.c \
+			draw.c \
+			pixel_put.c \
+			error_quit.c \
+			draw_reset.c
 
 SRCS = $(addprefix $(SRCS_PATH), $(SRCS_NAME))
 

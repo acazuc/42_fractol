@@ -6,13 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 07:21:18 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:54:48 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 09:00:43 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <mlx.h>
-#include "window.h"
+#include "fractol.h"
 
 t_window	*window_init(void)
 {

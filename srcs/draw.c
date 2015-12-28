@@ -6,23 +6,11 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 16:14:37 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/27 16:56:27 by acazuc           ###   ########.fr       */
+/*   Updated: 2015/12/28 08:59:06 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <mlx.h>
-#include "../libft/libft.h"
-#include "render_coords.h"
-#include "burningship.h"
-#include "mandelbrot.h"
-#include "draw_reset.h"
-#include "pixel_put.h"
-#include "complex.h"
-#include "window.h"
-#include "julia.h"
-#include "env.h"
-#include "dot.h"
+#include "fractol.h"
 
 static void		put_pixel(t_env *env, t_complex *c1, t_complex *c2, t_dot *dot)
 {

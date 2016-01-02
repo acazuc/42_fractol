@@ -6,12 +6,12 @@
 /*   By: acazuc <acazuc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/28 08:49:48 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/28 09:03:11 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/02 13:29:39 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PROTOTYPES_H
-# define FT_PROTOTYPES_H
+#ifndef PROTOTYPES_H
+# define PROTOTYPES_H
 
 # include "complex.h"
 # include "dot.h"

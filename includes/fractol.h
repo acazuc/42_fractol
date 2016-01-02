@@ -6,12 +6,12 @@
 /*   By: acazuc <acazuc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/28 08:48:54 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/28 11:17:27 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/02 13:29:23 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_FRACTOL_H
-# define FT_FRACTOL_H
+#ifndef FRACTOL_H
+# define FRACTOL_H
 
 # include "../libft/includes/libft.h"
 # include "prototypes.h"

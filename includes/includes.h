@@ -6,12 +6,12 @@
 /*   By: acazuc <acazuc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/28 08:58:08 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/28 09:03:32 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/02 13:29:29 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_INCLUDES_H
-# define FT_INCLUDES_H
+#ifndef INCLUDES_H
+# define INCLUDES_H
 
 # include <stdlib.h>
 # include <mlx.h>

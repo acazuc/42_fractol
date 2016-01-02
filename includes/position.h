@@ -6,12 +6,12 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/01 11:40:42 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/09 08:30:40 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/02 13:29:34 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_POSITION_H
-# define FT_POSITION_H
+#ifndef POSITION_H
+# define POSITION_H
 
 typedef struct		s_position
 {

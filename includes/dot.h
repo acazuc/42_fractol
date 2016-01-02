@@ -6,12 +6,12 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 15:00:00 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/09 08:48:05 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/02 13:29:10 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_DOT_H
-# define FT_DOT_H
+#ifndef DOT_H
+# define DOT_H
 
 typedef struct		s_dot
 {

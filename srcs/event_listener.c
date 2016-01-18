@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 16:21:51 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/28 09:02:50 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/18 12:38:22 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	check_position(t_env *env)
 {
 	if (env->position->zoom < 1)
 		env->position->zoom = 1;
+	if (env->position->zoom > 1000000)
+		env->position->zoom = 1000000;
 	if (env->position->x_offset < 0)
 		env->position->x_offset = 0;
 	if (env->position->x_offset > 4 - .5 / env->position->zoom)

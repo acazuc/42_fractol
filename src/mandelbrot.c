@@ -6,7 +6,7 @@
 /*   By: acazuc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/30 08:51:10 by acazuc            #+#    #+#             */
-/*   Updated: 2015/12/28 09:00:27 by acazuc           ###   ########.fr       */
+/*   Updated: 2016/01/24 12:35:34 by acazuc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int				mandelbrot(t_env *env, t_complex *c1, t_complex *c2, t_dot *dot)
 		c2->real = c1->real;
 		c2->imaginary = c1->imaginary;
 		c1->real = c2->real * c2->real - c2->imaginary * c2->imaginary + dot->x;
-		c1->imaginary = 2 * c2->real * c2->imaginary + dot->y / 1.777777;
+		c1->imaginary = 2. * c2->real * c2->imaginary + dot->y / 1.777777;
 		i++;
 	}
 	return (get_color(i, max_i));
